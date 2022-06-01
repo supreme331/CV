@@ -14,18 +14,18 @@
 <div class="wrapper">
     <header class="header">
         <div class="header__container _container">
-            <h1 class="header__name">Василий Кабанов</h1>
+            <h1 class="header__name _anim-items _anim-no-hide">Василий Кабанов</h1>
             <div class="header__row">
-                    <div class="header__photo _ibg">
+                    <div class="header__photo _ibg _anim-items _anim-no-hide">
                         <img src="./img/avatar.jpg" alt="Photo">
                     </div>
                     <div class="header__info info">
-                        <div class="info__items">
+                        <div class="info__items _anim-items _anim-no-hide">
                             <span class="info__item">31 год</span>
                             <span class="info__item">Frontend developer</span>
                             <span class="info__item">г. Санкт-Петербург</span>
                         </div>
-                        <ul class="info__contacts contacts">
+                        <ul class="info__contacts contacts _anim-items _anim-no-hide">
                             <li class="contacts__item">
                                 <a target="_blank" href="tel:+79052393276"><img src="./img/icons/whatsapp.png" alt="whatsapp"><img
                                         src="./img/icons/telegram.png" alt="telegram">+7-905-239-32-76</a>
@@ -47,22 +47,23 @@
     <main class="page">
         <section class="page__main-about main-about">
             <div class="main-about__container _container">
-                <div class="main-about__block">
-                    <h2 class="main-about__title">О себе</h2>
-                    <div class="main-about__text">
-                        Сменил направление развития в IT с системного администратора на frontend разработчика. Люблю
-                        писать
-                        логику, видеть результат своих трудов. В планах углубление знаний TypeScript, React, Redux, есть
-                        интерес познакомиться с React Native, возможно попробовать Vue, Angular.
+                <div class="main-about__block _anim-items">
+                    <h2 class="main-about__title _anim-show">О себе</h2>
+                    <div class="main-about__text _anim-items">
+                        <p class="_anim-show">
+                            Сменил направление развития в IT с системного администратора на frontend разработчика.
+                            Frontend интересен наглядным результатом своих трудов. В планах углубление знаний TypeScript,
+                            React, Redux, есть интерес познакомиться с React Native, возможно попробовать Vue, Angular.
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
         <section class="page__main-skills skills">
             <div class="skills__container _container">
-                <div class="skills__block">
-                    <h2 class="skills__title">Стек технологий</h2>
-                    <ul class="skills__list">
+                <div class="skills__block _anim-items">
+                    <h2 class="skills__title _anim-show">Стек технологий</h2>
+                    <ul class="skills__list _anim-items _anim-show">
                         <li class="skills_item">
                             HTML-5
                         </li>
@@ -102,28 +103,32 @@
         </section>
         <section class="page__main-projects projects">
             <div class="projects__container _container">
-                <div class="projects__block">
-                    <h2 class="projects__title">Проекты</h2>
-                    <div class="project">
-                        <h3 class="project__title">Social network</h3>
-                        <div class="project__text">
-                            Социальная сеть построенная на API курса «React - путь самурая»
-                            Проект написан на TypeScript. Реализовано взаимодействие с сервером по REST API, получены
-                            знания по React как на классовых компонентах, так и функциональных с использованием React
-                            Hooks, в качестве стэйт менеджера использован Redux + Thunk Middleware. За визуальную
-                            составляющую отвечает AntDesign и модульный CSS.
+                <div class="projects__block ">
+                    <h2 class="projects__title _anim-items _anim-show">Проекты</h2>
+                    <div class="project _anim-items">
+                        <h3 class="project__title _anim-show">Social network</h3>
+                        <div class="project__text _anim-items">
+                            <p class="_anim-show">
+                                Социальная сеть построенная на API курса «React - путь самурая»
+                                Проект написан на TypeScript. Реализовано взаимодействие с сервером по REST API, получены
+                                знания по React как на классовых компонентах, так и функциональных с использованием React
+                                Hooks, в качестве стэйт менеджера использован Redux + Thunk Middleware. За визуальную
+                                составляющую отвечает AntDesign и модульный CSS.
+                            </p>
                         </div>
-                        <div class="buttons">
+                        <div class="buttons _anim-show">
                             <a target="_blank" href="https://supreme331.github.io/social-network/" class="button">Ссылка на проект</a>
                             <a target="_blank" href="https://github.com/supreme331/social-network" class="button">Код на GitHub</a>
                         </div>
                     </div>
-                    <div class="project">
-                        <h3 class="project__title">Relvise-adaptive</h3>
-                        <div class="project__text">
-                            Изучение адаптивной верстки по готовому макету на примере лэндинга с применением Flexbox и БЭМ.
+                    <div class="project _anim-items">
+                        <h3 class="project__title _anim-show">Relvise-adaptive</h3>
+                        <div class="project__text _anim-items">
+                            <p class="_anim-show">
+                                Изучение адаптивной верстки по готовому макету на примере лэндинга с применением Flexbox и БЭМ.
+                            </p>
                         </div>
-                        <div class="buttons">
+                        <div class="buttons _anim-show">
                             <a target="_blank" href="https://supreme331.github.io/Relvise-adaptive/" class="button">Ссылка на проект</a>
                             <a target="_blank" href="https://github.com/supreme331/Relvise-adaptive" class="button">Код на GitHub</a>
                         </div>
@@ -134,39 +139,45 @@
         <section class="page__main-courses courses">
             <div class="courses__container _container">
                 <div class="courses__block">
-                    <h2 class="courses__title">Курсы</h2>
-                    <ul class="courses__items">
-                        <li class="courses__item">React JS – Путь самурая</li>
-                        <li class="courses__item">Udemy Полный курс по JavaScript (Иван Петриченко)</li>
+                    <h2 class="courses__title _anim-items">Курсы</h2>
+                    <ul class="courses__items _anim-items">
+                        <li>React JS – Путь самурая</li>
+                        <li>Udemy Полный курс по JavaScript (Иван Петриченко)</li>
                     </ul>
                 </div>
             </div>
         </section>
         <section class="page__main-education education">
             <div class="education__container _container">
-                <div class="education__block">
-                    <h2 class="education__title">Образование</h2>
-                    <h3 class="education__subtitle">Высшее</h3>
-                    <div class="education__text">
-                        Северо-Западный открытый технический университет (АНО ВО «СЗТУ»)<br>
-                        «Информационные системы и технологии»<br>
-                        г. Санкт-Петербург 2020 г.
+                <div class="education__block _anim-items">
+                    <h2 class="education__title _anim-show">Образование</h2>
+                    <h3 class="education__subtitle _anim-show">Высшее</h3>
+                    <div class="education__text _anim-items">
+                        <p class="_anim-show">
+                            Северо-Западный открытый технический университет (АНО ВО «СЗТУ»)<br>
+                            «Информационные системы и технологии»<br>
+                            г. Санкт-Петербург 2020 г.
+                        </p>
                     </div>
-                    <h3 class="education__subtitle">Английский</h3>
-                    <div class="education__text">Pre-intermediate</div>
+                    <div class="education__languages _anim-items">
+                        <h3 class="education__subtitle _anim-show">Английский</h3>
+                        <div class="education__text _anim-show">Pre-intermediate</div>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="page__main-experience experience">
             <div class="experience__container _container">
                 <div class="experience__block">
-                    <h2 class="experience__title">Опыт работы:</h2>
-                    <div class="experience__text">
-                        Радиомеханик (по факту системный администратор)<br>
-                        ФКУ «ЦХиСО УМВД России по Новгородской области»
-                        г. Великий Новгород (март 2019 – апрель 2021)<br>
-                        Обслуживание всей вычислительной техники подразделения в том числе как программная часть, так и
-                        ее ремонты. Организация работы ЛВС, Интернет, телефония, видеонаблюдение.
+                    <h2 class="experience__title _anim-items _anim-show">Опыт работы:</h2>
+                    <div class="experience__text _anim-items">
+                        <p class="_anim-show">
+                            Радиомеханик (по факту системный администратор)<br>
+                            ФКУ «ЦХиСО УМВД России по Новгородской области»
+                            г. Великий Новгород (март 2019 – апрель 2021)<br>
+                            Обслуживание всей вычислительной техники подразделения в том числе как программная часть, так и
+                            ее ремонты. Организация работы ЛВС, Интернет, телефония, видеонаблюдение.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -174,14 +185,17 @@
         <section class="page__main-softSkills softSkills">
             <div class="softSkills__container _container">
                 <div class="softSkills__block">
-                    <h2 class="softSkills__title">Софт скилы:</h2>
-                    <div class="softSkills__text">
-                        Ответственность в выполнении поставленных задач, инициативность.
+                    <h2 class="softSkills__title _anim-items _anim-show">Софт скилы:</h2>
+                    <div class="softSkills__text _anim-items">
+                        <p class="_anim-show">
+                            Ответственность в выполнении поставленных задач, инициативность.
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
     </main>
 </div>
+<script src="script.js"></script>
 </body>
 </html>
